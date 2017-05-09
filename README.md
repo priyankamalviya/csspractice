@@ -10,8 +10,9 @@ CSS perspective demo:
 http://codepen.io/priyankamalviya/pen/RGjEyj
 
 
-Flexbox nav demo:
+Flexbox nav demo:http://codepen.io/priyankamalviya/pen/qmVRWq
 
-http://codepen.io/priyankamalviya/pen/qmVRWq
+Animate.css button shake: https://codepen.io/priyankamalviya/full/XRZKPm/
+
 
 
