@@ -1,0 +1,17 @@
+body{
+  margin: 50px;
+  background: lightcoral;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a.button{
+  background: darkblue;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 10px;
+}
+
