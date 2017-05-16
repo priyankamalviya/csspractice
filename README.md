@@ -17,6 +17,9 @@ Animate.css button shake: https://codepen.io/priyankamalviya/full/XRZKPm/
 
 Hover dropdown menu(Bootstrap) : https://codepen.io/priyankamalviya/pen/mmxKbv
 
+Sass map function: http://codepen.io/priyankamalviya/details/bWKjee/
+
+
 
 
 
