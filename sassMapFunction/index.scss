@@ -1,0 +1,56 @@
+body{
+ background-color:pink;
+ text-align: center;
+ border:6px solid blueviolet;
+ border-radius:10px;
+ padding: 10px;
+ color: chocolate;
+}
+
+span{
+  background-color:aquamarine;
+  padding:5px;
+  border-radius:5px;
+  text-decoration: underline;
+}
+
+/*span.highlight{
+  background-color: white;
+}*/
+
+ul {
+ list-style:none;
+ display: flex;
+}
+
+li{
+  padding:20px;
+}
+
+$colors: (
+    "red":   (#ff0000, rbg(255, 0, 0)),
+    "green": (#00ff00, rbg(0, 255, 0)),
+    "blue":  (#0000ff, rbg(0, 0, 255)),
+    "white": (#ffffff, rgb(255,255,255))
+);
+
+
+
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}
+
+// _component.scss
+.highlight {
+  background-color: color(white); // #09A6E4
+}
+
+
+
+
+ 
