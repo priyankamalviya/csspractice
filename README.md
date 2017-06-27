@@ -15,6 +15,7 @@ Sass map function: http://codepen.io/priyankamalviya/details/bWKjee/
 
 Grid - fixed header-footer : https://codepen.io/priyankamalviya/full/PmxONB/
 
+Twitter card sass - https://codepen.io/priyankamalviya/pen/xrPEzw
 
 
 
