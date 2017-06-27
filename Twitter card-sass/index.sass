@@ -1,0 +1,64 @@
+@import 'bourbon'
+
+$muted-grey: #999
+
+
+body
+  font-family: sans-serif
+  margin: 100px
+  
+.tweet-container
+  border: 1px solid #eee
+  padding: 25px 50px
+  border-radius: 5px
+  width: 530px
+  margin: 0 auto
+  
+  .title
+    
+    &:after
+      content: ''
+      display: block
+      clear: both
+    
+    .avatar
+      border-radius: 5px
+      float: left
+      +size(50)
+      
+    .name
+      font-weight: bold
+      padding-top: 7px
+      
+      span
+        font-weight: normal
+        color: $muted-grey
+        font-size: 0.1em
+        display: block
+        
+        
+  blockquote
+    margin: 30px 0
+    font-family: georgia
+    font-size: 2em
+    
+  .actions
+    padding-bottom: 10px
+    border-bottom: 1px solid #ccc
+    margin-bottom: 20px
+    
+    [class*="icon-"]
+      color: $muted-grey
+      margin-right: 20px
+      
+      &:before
+        margin-right: 5px
+       
+      &.icon-star
+        color: #ff9600
+        
+  time
+    color: #999
+    font-size: 0.7em
+    
+    
