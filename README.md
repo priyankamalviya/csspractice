@@ -1,7 +1,7 @@
 # csspractice
 This repo is meant for css3 practice
 
-calc function demo:https://codepen.io/priyankamalviya/pen/gWppQN
+(Interview Question) calc function demo:https://codepen.io/priyankamalviya/pen/gWppQN
 
 CSS perspective demo:http://codepen.io/priyankamalviya/pen/RGjEyj
 
@@ -16,6 +16,8 @@ Sass map function: http://codepen.io/priyankamalviya/details/bWKjee/
 Grid - fixed header-footer : https://codepen.io/priyankamalviya/full/PmxONB/
 
 Twitter card sass - https://codepen.io/priyankamalviya/pen/xrPEzw
+
+(Interview Question) Accordion css only - https://codepen.io/priyankamalviya/pen/Xgqqez
 
 
 
