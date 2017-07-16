@@ -19,6 +19,6 @@ Twitter card sass - https://codepen.io/priyankamalviya/pen/xrPEzw
 
 (Interview Question) Accordion css only - https://codepen.io/priyankamalviya/pen/Xgqqez
 
-
+CSS pseudo element example: https://codepen.io/priyankamalviya/pen/VWNaya
 
 
