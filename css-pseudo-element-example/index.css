@@ -1,0 +1,12 @@
+input{
+  padding: 10px;
+  width: 25%;
+  font-size:1em;
+  border: 2px solid #999;
+}
+
+
+/* pseudo element in css */
+::-webkit-input-placeholder{
+  color: purple;
+}
