@@ -1,0 +1,89 @@
+// set image
+$image: "https://static.pexels.com/photos/60006/spring-tree-flowers-meadow-60006.jpeg";
+
+// set text color
+$text-color: #fff;
+
+// set blur intensity
+$blur-attr: 1em;
+
+* { margin:0; padding:0; }
+
+html,body { 
+  width:100%;
+  height:100%; 
+}
+
+.blur-box {
+  width: 100%;
+  height: 8em;
+  background: url($image) right 90em;
+  content: "";
+  position: absolute;
+  bottom: 3.8em;
+  background-position: right 12em;
+  -webkit-filter: blur($blur-attr);
+  -moz-filter: blur($blur-attr);
+  -o-filter: blur($blur-attr);
+  filter: url(#blur);
+  background-size: 100% auto;
+  box-sizing: border-box;
+  -moz-box-sizng: border-box;
+  -moz-box-sizing: border-box;
+   margin-left: -.9em;
+  /* this is the coolest part of this pen!*/
+   animation: run 30s linear infinite;
+	-ms-animation: run 30s linear infinite;
+	-moz-animation: run 30s linear infinite;
+	-webkit-animation: run 30s linear infinite;
+}
+
+.picture {
+  background: url($image) bottom right;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: 100% auto;
+  overflow:hidden;
+  /* parent and child both need to have same animation so the image runs in sync*/
+  animation: run 30s linear infinite;
+	-ms-animation: run 30s linear infinite;
+	-moz-animation: run 30s linear infinite;
+	-webkit-animation: run 30s linear infinite;
+}
+
+.text {
+  position: absolute;
+  bottom: 1.9em;
+  font-size: 50px;
+  font-weight: 600;
+  color: $text-color;
+  left: 8em;
+  z-index: 10;
+}
+
+
+@keyframes 
+run {
+  0% { background-size: 100% auto; }
+	50% { background-size: 120% auto; }
+	100% { background-size: 100% auto; }
+}
+@-webkit-keyframes
+run {
+  0% { background-size: 100% auto; }
+	50% { background-size: 120% auto; }
+	100% { background-size: 100% auto; }
+}
+@-ms-keyframes
+run {
+  0% { background-size: 100% auto; }
+	50% { background-size: 120% auto; }
+	100% { background-size: 100% auto; }
+}
+@-moz-keyframes
+run {
+  0% { background-size: 100% auto; }
+	50% { background-size: 120% auto; }
+	100% { background-size: 100% auto; }
+}
