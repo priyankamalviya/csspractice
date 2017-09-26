@@ -1,0 +1,20 @@
+<div id="js-video-container" class="parent">
+	<div class="video-container">
+		<div id="js-player"></div>
+		<svg class="svg-overlay" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<text class="svg-overlay__text svg-overlay__outline" x="50%"  y="62.5%">Italy</text>
+			
+			<defs>
+				<clipPath id="mask">
+					<text class="svg-overlay__text" x="50%" y="62.5%">Italy</text>
+					
+				</clipPath>
+				
+				<filter id="blurFilter" width="100%" x="0" y="0" width="100%" height="100%">
+					<!-- The <feGaussianBlur> SVG filter primitive blurs the input image by the amount specified in stdDeviation, which defines the bell-curve.-->
+					<feGaussianBlur in="SourceGraphic" stdDeviation="3 10" />
+				</filter>
+			</defs>
+		</svg>
+	</div>
+</div>
