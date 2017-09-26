@@ -21,4 +21,5 @@ Twitter card sass - https://codepen.io/priyankamalviya/pen/xrPEzw
 
 CSS pseudo element example: https://codepen.io/priyankamalviya/pen/VWNaya
 
+SVG video mask: https://codepen.io/priyankamalviya/pen/qPrNeq
 
