@@ -23,3 +23,4 @@ CSS pseudo element example: https://codepen.io/priyankamalviya/pen/VWNaya
 
 SVG video mask: https://codepen.io/priyankamalviya/pen/qPrNeq
 
+fun flexbox demo: https://codepen.io/priyankamalviya/pen/rGRbxe
