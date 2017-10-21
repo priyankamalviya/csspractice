@@ -1,0 +1,78 @@
+/* flexing the boxes! */
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: flex-start;
+}
+
+.box {
+  width: 100%;
+}
+
+.container, .one {
+  max-width: 50%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-flow: row wrap;
+  }
+  .container, .one {
+    max-width: none;
+  }
+}
+
+
+/* styling */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background: rgba(blue, 0.5);
+  max-width: 980px;
+}
+
+.box {
+  padding: 10px;
+  background: pink;
+  height: 210px;
+  color: white;
+  font-size: 48px;
+  &:before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: deeppink;
+  }
+}
+
+.one {
+  height: 420px;
+  &:before {
+    content: "1";
+  }
+}
+.two {
+  &:before {
+    content: "2";
+  }
+}
+.three {
+  &:before {
+    content: "3";
+  }
+}
