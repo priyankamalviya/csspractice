@@ -26,3 +26,5 @@ SVG video mask: https://codepen.io/priyankamalviya/pen/qPrNeq
 fun flexbox demo: https://codepen.io/priyankamalviya/pen/rGRbxe
 
 svg button: https://codepen.io/priyankamalviya/pen/jGjLLQ
+
+css grid simple sandwich: https://codepen.io/priyankamalviya/pen/MObyJg
