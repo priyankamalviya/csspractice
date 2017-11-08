@@ -1,0 +1,18 @@
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-columns: 120px 1fr 120px;
+}
+
+.layer {
+  background: CornflowerBlue;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border-radius: 25px ;
+}
+
+.middle {
+  background-color: LightPink ;
+  grid-column-start: 2;
+}
