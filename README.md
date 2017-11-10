@@ -28,3 +28,5 @@ fun flexbox demo: https://codepen.io/priyankamalviya/pen/rGRbxe
 svg button: https://codepen.io/priyankamalviya/pen/jGjLLQ
 
 css grid simple sandwich: https://codepen.io/priyankamalviya/pen/MObyJg
+
+material design quote card: https://codepen.io/priyankamalviya/pen/eegaMq
