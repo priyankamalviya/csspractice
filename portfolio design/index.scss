@@ -1,0 +1,54 @@
+*{
+  box-sizing: boder-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  max-height: 100px;
+  align-content: right;
+}
+
+nav .logo{margin-left: 15px}
+
+nav .work{
+   margin-left: auto;
+   margin-right: 15px;
+ }
+nav .about{margin-right: 15px;}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.image {
+  background-image: url("http://res.cloudinary.com/pixelplus/image/upload/v1510295441/black-and-white-photography-1024x584_niptgw.jpg") ;
+  // background-size: contain;
+  background-repeat: round;
+  height: 100vh;
+  width: 30vw;
+}
+
+.headline {
+  font-family: 'Neuton', serif;
+  font-size: 70px;
+  max-width: 100px;
+  position: absolute;
+  top: 15%;
+  left: 23%;
+}
+
+.summary {
+  font-size: 20px;
+  max-width: 400px;
+  position: absolute;
+  top: 65%;
+  left: 38%;
+}
