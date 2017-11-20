@@ -30,3 +30,5 @@ svg button: https://codepen.io/priyankamalviya/pen/jGjLLQ
 css grid simple sandwich: https://codepen.io/priyankamalviya/pen/MObyJg
 
 material design quote card: https://codepen.io/priyankamalviya/pen/eegaMq
+
+play video on scroll: https://codepen.io/priyankamalviya/full/POOzxp/
