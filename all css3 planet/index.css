@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+body{
+  background:url("https://www.textures.com/system/gallery/photos/Landscapes/Skies%20Partial/19587/Skies0258_3_download600.jpg") repeat;
+}
+
+.planet {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow:hidden;
+  box-shadow: 0 0 60px -20px rgba(255, 189, 3, 0.72), -14px -15px 40px -10px rgba(255, 238, 191, 0.23);
+  left:50%;
+  top:50%;
+  margin:-150px;
+  background:url("http://res.cloudinary.com/pixelplus/image/upload/v1511452702/Screen_Shot_2017-11-23_at_9.57.14_AM_pu97fr.png");
+  background-size: cover;
+  animation: planetMove 30s infinite linear;
+  animation: planetRotate 150s infinite linear;
+  box-shadow: 0 0 60px -20px rgba(255, 189, 3, 0.72), -14px -15px 40px -10px rgba(255, 238, 191, 0.23);
+}
+
+@Keyframes planetMove {
+  0%{
+    background-position-x:0;
+  }
+  100%{
+    background-position-x:-500px;
+  }
+}
+
+@Keyframes planetRotate{
+  0%{
+    transform:rotateZ(0);
+  }
+  100%{
+    transform:rotateZ(-360deg);
+  }
+}
